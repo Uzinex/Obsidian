@@ -1,18 +1,80 @@
-const products = [
+const directions = [
   {
-    name: 'Aegis Plates',
-    summary: 'Adaptive armor tiles that redirect thermal shock and kinetic force for aerospace hulls and orbital stations.',
-    specs: ['Thermal rating: 6,000°C', 'Weight reduction: 42%', 'Self-healing crystalline mesh'],
+    name: 'AI & Defense Technologies',
+    summary:
+      'Центр искусственного интеллекта и оборонных технологий. Формируем интеллектуальный фундамент безопасности и управления XXI века.',
+    specs: [
+      'Большие языковые модели на узбекском и английском языках',
+      'Системы аналитики, автоматизации и прогнозирования',
+      'Инструменты киберзащиты и мониторинга на базе ИИ',
+      'Технологии цифровой обороны национальной инфраструктуры',
+    ],
   },
   {
-    name: 'Helios Lattice',
-    summary: 'Transparent energy conduits for solar megastructures, capturing and rerouting plasma-level heat with elegance.',
-    specs: ['Quantum light routing', 'Radiant efficiency: 98%', 'Anti-corrosive ion layer'],
+    name: 'Host (Cloud & Infrastructure)',
+    summary:
+      'Суверенная облачная и инфраструктурная платформа для государства и бизнеса с архитектурой Zero Trust.',
+    specs: [
+      'Хостинг, VPS/VDS и выделенные серверы',
+      'Корпоративные дата-центры и частные облака',
+      'Zero Trust среды и гибридные контуры',
+      'API-сервисы и CI/CD-интеграции',
+    ],
   },
   {
-    name: 'Obsidian Core',
-    summary: 'Geothermal reactors scaled for off-world colonies, blending magma flow with superconductive stabilization.',
-    specs: ['Zero-emission plasma crucible', 'Autonomous fault prediction', 'Closed-loop cooling systems'],
+    name: 'Freelance (Digital Economy Platform)',
+    summary:
+      'Национальная биржа фриланса, объединяющая цифровые профессии и стартапы в единую экономику.',
+    specs: [
+      'Рейтинги, отзывы и защищённые сделки',
+      'Автоматические выплаты в токенах и национальной валюте',
+      'Баланс-кошелёк и интеграция с банковской системой',
+      'Поддержка экспорта IT-услуг за рубеж',
+    ],
+  },
+  {
+    name: 'Bank (Fintech & Payments)',
+    summary:
+      'Цифровая банковская экосистема нового поколения для мгновенных и безопасных расчётов.',
+    specs: [
+      'Электронные кошельки и IBAN-счета',
+      'Мгновенные переводы и P2P-платежи',
+      'Платёжные шлюзы и API для бизнеса',
+      'Интеграция с токеном UZT и внутренней экономикой группы',
+    ],
+  },
+  {
+    name: 'Uzcoin & Blockchain',
+    summary:
+      'Блокчейн-платформа и цифровой актив UZT — единый слой доверия для всей экосистемы.',
+    specs: [
+      'Полная совместимость с EVM',
+      'Смарт-контракты и токенизация',
+      'Децентрализованные приложения для всех продуктов группы',
+      'Базовый слой Web3-экономики и интеграции с госуслугами',
+    ],
+  },
+  {
+    name: 'Cybersecurity & Sovereign Infrastructure',
+    summary:
+      'Центр кибербезопасности и цифрового контроля, гарантирующий технологическую независимость страны.',
+    specs: [
+      'Zero Trust сети и изолированные облака',
+      'Системы мониторинга и обнаружения угроз',
+      'Аудит, шифрование и защита критических данных',
+      'Партнёрские проекты с госструктурами и оборонным сектором',
+    ],
+  },
+  {
+    name: 'Education & Research',
+    summary:
+      'Исследовательское и образовательное направление, формирующее новое поколение инженеров и аналитиков.',
+    specs: [
+      'Академические программы и курсы по ИИ, DevOps, безопасности и блокчейну',
+      'Лаборатории и акселерационные программы',
+      'Сотрудничество с вузами, технопарками и инкубаторами',
+      'Практико-ориентированное обучение для национальной техносферы',
+    ],
   },
 ]
 
@@ -20,16 +82,16 @@ const ProductsPage = () => {
   return (
     <div className="page">
       <header className="page-header">
-        <span className="page-subheading">Our Products</span>
-        <h1>Artifacts of volcanic brilliance</h1>
+        <span className="page-subheading">Экосистема</span>
+        <h1>Стратегические направления развития</h1>
         <p className="page-lede">
-          Each Obsidian product embodies centuries of geothermal wisdom refined by quantum-age artisans. Explore a collection
-          engineered for resilience, luminosity, and ethical power.
+          Каждый продуктовый кластер дополняет остальные, создавая замкнутый цикл — от инфраструктуры и финансов до
+          образования и цифровой обороны.
         </p>
       </header>
 
       <section className="page-grid">
-        {products.map((product) => (
+        {directions.map((product) => (
           <article key={product.name} className="glass-card">
             <h3>{product.name}</h3>
             <p>{product.summary}</p>
