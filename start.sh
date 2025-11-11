@@ -12,6 +12,17 @@ ensure_npm() {
 
   export NVM_DIR="${NVM_DIR:-$HOME/.nvm}"
 
+  # Install nvm on-the-fly if it has not been installed yet. Some
+  # execution environments ship without Node.js preinstalled which would
+  # otherwise cause the script to fail immediately.
+  if [ ! -s "$NVM_DIR/nvm.sh" ]; then
+    if command -v curl >/dev/null 2>&1; then
+      curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash >/dev/null 2>&1
+    elif command -v wget >/dev/null 2>&1; then
+      wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash >/dev/null 2>&1
+    fi
+  fi
+
   if [ -s "$NVM_DIR/nvm.sh" ]; then
     # shellcheck disable=SC1090
     . "$NVM_DIR/nvm.sh"
