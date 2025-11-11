@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   preview: {
-    allowedHosts: ['obsidian-production-9588.up.railway.app'],
+    allowedHosts: ['https://obsidian-production-02fe.up.railway.app/'],
   },
 })
