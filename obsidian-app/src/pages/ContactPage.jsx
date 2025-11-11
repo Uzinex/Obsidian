@@ -2,44 +2,44 @@ const ContactPage = () => {
   return (
     <div className="page">
       <header className="page-header">
-        <span className="page-subheading">Connect</span>
-        <h1>Signal the forge</h1>
+        <span className="page-subheading">Связаться</span>
+        <h1>Соединяем стратегических партнёров</h1>
         <p className="page-lede">
-          Whether you are architecting orbital habitats or shielding coastal cities, our specialists are ready to sculpt a
-          tailored Obsidian solution. Reach out — the embers are waiting.
+          Мы сопровождаем государственные проекты, корпоративные программы и технологические стартапы. Напишите нам, если
+          вам нужна экосистема, способная обеспечить цифровой суверенитет и безопасность.
         </p>
       </header>
 
       <div className="page-grid">
         <article className="glass-card">
-          <h3>Contact Channels</h3>
-          <p>We respond within two Earth cycles.</p>
+          <h3>Каналы взаимодействия</h3>
+          <p>Ответим в течение одного рабочего дня.</p>
           <ul>
-            <li>Email: forge@obsidian-industries.com</li>
-            <li>Quantum Relay: Q-Link OBS-7742</li>
-            <li>Headquarters: Reykjavik Geothermal Array, Iceland</li>
+            <li>Email: strategy@obsidian-group.tech</li>
+            <li>Телефон: +998 (71) 000-00-00</li>
+            <li>Штаб-квартира: Ташкент, Technopark «Obsidian»</li>
           </ul>
         </article>
 
         <article className="glass-card">
-          <h3>Visit the Sanctum</h3>
+          <h3>Государственные проекты</h3>
           <p>
-            Tours of our subterranean foundry are available by appointment. Experience plasma crucibles, basalt archives, and
-            the harmonic chamber that tunes every lattice.
+            Формируем цифровые платформы, инфраструктуру и оборонные решения под задачи страны. Организуем защищённые пилоты и
+            интеграции на уровне министерств и ведомств.
           </p>
-          <a className="cta-button" href="mailto:forge@obsidian-industries.com">
-            Book a Tour
+          <a className="cta-button" href="mailto:gov@obsidian-group.tech">
+            Запросить консультацию
           </a>
         </article>
 
         <article className="glass-card">
-          <h3>Press & Media</h3>
+          <h3>Инвесторы и медиа</h3>
           <p>
-            For interviews, press kits, and speaking invitations, connect with the Obsidian storytelling collective. We love
-            sharing the glow.
+            Предоставляем аналитические материалы, отчёты и комментарии по развитию цифровой экономики, финтеха и
+            кибербезопасности.
           </p>
-          <a className="cta-button" href="mailto:press@obsidian-industries.com">
-            Media Request
+          <a className="cta-button" href="mailto:press@obsidian-group.tech">
+            Получить материалы
           </a>
         </article>
       </div>
