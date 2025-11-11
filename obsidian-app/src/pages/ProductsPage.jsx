@@ -1,192 +1,192 @@
 const productSections = [
   {
     name: 'AI & Defense Technologies',
-    lead: 'Инженерный штаб, который превращает искусственный интеллект в основу цифровой обороны и управления.',
+    lead: 'An engineering command center that turns artificial intelligence into the core of digital defense and governance.',
     story: [
-      'Мы строим многоуровневые модели, работающие на узбекском, русском и английском языках, обучаем аналитические контуры на данных госструктур и бизнеса и внедряем ИИ в управленческие процессы.',
-      'Команда развивает инструменты ситуационного анализа, прогнозирования угроз и автономного принятия решений — от систем наблюдения до цифровых советников штабов.',
+      'We design multi-layered models fluent in Uzbek, Russian, and English, train analytical pipelines on government and enterprise datasets, and embed AI into mission-critical workflows.',
+      'The team advances situational intelligence, threat forecasting, and autonomous decision-making — from monitoring systems to digital staff advisors.',
     ],
     bulletGroups: [
       {
-        title: 'Флагманские программы',
+        title: 'Flagship programs',
         items: [
-          'Линейка больших языковых моделей Obsidian LLM с защищённой развёрткой.',
-          'Комплекс распознавания и трекинга событий для силовых ведомств.',
-          'Цифровой штаб: интеграция ИИ в процессы планирования и логистики.',
+          'Obsidian LLM — a family of large language models with hardened deployment options.',
+          'Event recognition and tracking suite tailored for security agencies.',
+          'Digital command hub: AI integrated into planning, logistics, and operations.',
         ],
       },
       {
-        title: 'Что даём партнёрам',
+        title: 'Partner impact',
         items: [
-          'Внедрение ИИ в критические контуры безопасности.',
-          'Центры обработки данных и платформы знаний под государственные стандарты.',
-          'Совместные лаборатории с вузами и оборонными НИИ.',
+          'Deploying AI across critical defense and security domains.',
+          'Knowledge platforms and data centers that meet national standards.',
+          'Joint laboratories with universities and defense institutes.',
         ],
       },
     ],
-    footnote: 'Точка роста: суверенная когнитивная платформа для всей экосистемы.',
+    footnote: 'Growth focus: sovereign cognitive platform for national command.',
   },
   {
     name: 'Host (Cloud & Infrastructure)',
-    lead: 'Суверенное облако и инфраструктура, выстроенные по принципу Zero Trust для государства и корпораций.',
+    lead: 'Sovereign cloud and infrastructure engineered on Zero Trust principles for government and enterprise.',
     story: [
-      'Host объединяет дата-центры, частные облака и API-шлюзы в единую платформу. Мы разрабатываем архитектуру «без доверия», где каждая транзакция проверяется, а цепочки доступа полностью контролируются.',
-      'Платформа адаптируется под критические нагрузки, поддерживает гибридные контуры и готова к сертификации по госстандартам.',
+      'Host unifies data centers, private clouds, and API gateways into a single platform. Every transaction is verified and every access chain is governed end-to-end.',
+      'The platform adapts to critical workloads, supports hybrid topologies, and is ready for national certification.',
     ],
     bulletGroups: [
       {
-        title: 'Инфраструктурные сервисы',
+        title: 'Infrastructure services',
         items: [
-          'Хостинг приложений и выделенные серверы с аппаратным шифрованием.',
-          'Облачные среды разработки с интеграцией CI/CD.',
-          'Национальная сеть обмена данными и защищённые каналы связи.',
+          'Application hosting and dedicated servers with hardware encryption.',
+          'Cloud-native development environments with CI/CD integration.',
+          'National data exchange fabric and secured communication channels.',
         ],
       },
       {
-        title: 'Гарантии устойчивости',
+        title: 'Resilience guarantees',
         items: [
-          'Дублирование в трёх географических зонах.',
-          'Режимы непрерывной доступности для государственных сервисов.',
-          'Комплаенс с требованиями регуляторов и киберцентров.',
+          'Redundant presence across three geographic zones.',
+          'Continuous availability modes for public services.',
+          'Compliance with regulator and national cyber center requirements.',
         ],
       },
     ],
-    footnote: 'Точка роста: формирование единой цифровой инфраструктуры страны.',
+    footnote: 'Growth focus: unified national digital infrastructure.',
   },
   {
     name: 'Freelance (Digital Economy Platform)',
-    lead: 'Экономическая платформа, которая соединяет специалистов, компании и государство в прозрачный цифровой рынок.',
+    lead: 'An economic platform connecting specialists, companies, and the state in a transparent digital marketplace.',
     story: [
-      'Freelance создаёт пространство для экспорта услуг и внутреннего спроса. Мы автоматизируем юридические и финансовые процессы, чтобы фрилансеры и команды могли работать с государственными проектами без посредников.',
-      'Каждая сделка сопровождается системой рейтингов, арбитража и цифровых контрактов на базе блокчейна Obsidian.',
+      'Freelance opens space for export-ready services and domestic demand. Legal and financial processes are automated so teams can work with public projects without intermediaries.',
+      'Every engagement is protected by ratings, arbitration, and digital contracts backed by the Obsidian blockchain.',
     ],
     bulletGroups: [
       {
-        title: 'Ценности платформы',
+        title: 'Platform value',
         items: [
-          'Защищённые сделки с гарантией выплат и юридической поддержкой.',
-          'Маркетплейс задач от госсектора, корпораций и стартапов.',
-          'Программы акселерации и экспортные треки для IT-команд.',
+          'Protected deals with guaranteed payouts and legal support.',
+          'Marketplace of missions from the public sector, enterprises, and startups.',
+          'Acceleration programs and export tracks for digital teams.',
         ],
       },
       {
-        title: 'Финансовая экосистема',
+        title: 'Financial ecosystem',
         items: [
-          'Мгновенные выплаты в UZT и национальной валюте.',
-          'Умные контракты для разделения доходов между участниками.',
-          'Интеграция с банковскими и налоговыми сервисами.',
+          'Instant payouts in UZT and national currency.',
+          'Smart contracts for revenue sharing between participants.',
+          'Integration with banking and tax services.',
         ],
       },
     ],
-    footnote: 'Точка роста: национальная цифровая биржа услуг и талантов.',
+    footnote: 'Growth focus: nationwide exchange for digital services and talent.',
   },
   {
     name: 'Bank (Fintech & Payments)',
-    lead: 'Финтех-ядро экосистемы: единый платёжный контур для населения, бизнеса и государственных структур.',
+    lead: 'The ecosystem’s fintech core: a unified payment circuit for citizens, business, and public institutions.',
     story: [
-      'Bank обеспечивает прозрачный расчётный слой с моментальными переводами, API для бизнеса и интеграцией с государственными системами идентификации.',
-      'Мы создаём сервисы для цифровых бюджетов, муниципальных программ и розничных клиентов, где безопасность и скорость равнозначны.',
+      'Bank delivers a transparent settlement layer with instant transfers, business-ready APIs, and integration with national identity services.',
+      'We build products for digital budgets, municipal programs, and retail clients where security and speed carry equal weight.',
     ],
     bulletGroups: [
       {
-        title: 'Направления развития',
+        title: 'Development tracks',
         items: [
-          'Платёжные шлюзы и white-label решения для банков и финтех-стартапов.',
-          'IBAN-счета, корпоративные кошельки и управление казначейством.',
-          'Программы цифрового лизинга и кредитования для IT-бизнеса.',
+          'Payment gateways and white-label solutions for banks and fintech startups.',
+          'IBAN accounts, corporate wallets, and treasury management.',
+          'Digital leasing and lending programs for technology companies.',
         ],
       },
       {
-        title: 'Цифровой контроль',
+        title: 'Digital oversight',
         items: [
-          'Мониторинг транзакций в реальном времени и антифрод-движок.',
-          'Встраивание токена UZT в расчётные и лояльностные сценарии.',
-          'Решения по AML/KYC с автоматическим аудитом.',
+          'Real-time transaction monitoring and anti-fraud engines.',
+          'UZT token integration for settlement and loyalty scenarios.',
+          'Automated AML/KYC compliance suites.',
         ],
       },
     ],
-    footnote: 'Точка роста: финансовый каркас цифровой экономики Obsidian.',
+    footnote: 'Growth focus: financial backbone of Obsidian’s digital economy.',
   },
   {
     name: 'Uzcoin & Blockchain',
-    lead: 'Блокчейн-слой доверия, объединяющий продукты группы и цифровые сервисы страны.',
+    lead: 'The trust layer that connects the group’s products and the country’s digital services.',
     story: [
-      'Uzcoin — это смарт-контракты, токенизация активов и инфраструктура Web3 для государственных и частных проектов.',
-      'Мы работаем над совместимостью с международными протоколами, чтобы экспортировать цифровые сервисы без потери суверенитета.',
+      'Uzcoin powers smart contracts, asset tokenization, and Web3 infrastructure for public and private programs.',
+      'We pursue interoperability with international protocols to export digital services without losing sovereignty.',
     ],
     bulletGroups: [
       {
-        title: 'Технологические направления',
+        title: 'Technology modules',
         items: [
-          'Совместимость с EVM и разработка собственных консенсусных алгоритмов.',
-          'Цифровые идентификаторы и распределённые реестры для госуслуг.',
-          'Инструменты токенизации реальных активов и государственных облигаций.',
+          'EVM compatibility and proprietary consensus algorithms.',
+          'Digital IDs and distributed registries for public services.',
+          'Tokenization toolkits for real-world assets and sovereign bonds.',
         ],
       },
       {
-        title: 'Партнёрские инициативы',
+        title: 'Partner initiatives',
         items: [
-          'Интеграция с финтех-проектами и платёжными системами региона.',
-          'Программы для стартапов Web3 и цифровых корпораций.',
-          'Запуск национальных пилотов по цифровым валютам и смарт-гарантиям.',
+          'Integration with regional fintech projects and payment systems.',
+          'Programs for Web3 startups and digital corporations.',
+          'National pilots for digital currencies and smart guarantees.',
         ],
       },
     ],
-    footnote: 'Точка роста: доверительная инфраструктура для всех цифровых сервисов.',
+    footnote: 'Growth focus: trusted infrastructure for every digital service.',
   },
   {
     name: 'Cybersecurity & Sovereign Infrastructure',
-    lead: 'Киберщит и оперативный центр безопасности, обеспечивающий технологический суверенитет.',
+    lead: 'A cyber shield and security operations engine that safeguards technological sovereignty.',
     story: [
-      'Мы проектируем изолированные облака, строим центры мониторинга, проводим аудит критических данных и сопровождаем реагирование на инциденты.',
-      'Команда развивает платформу анализа угроз с использованием ИИ, обеспечивает обучение специалистов и создаёт стандарты безопасности для всей экосистемы.',
+      'We design isolated clouds, build monitoring centers, audit critical data, and orchestrate incident response.',
+      'The team develops AI-driven threat analysis platforms, trains specialists, and sets security standards for the ecosystem.',
     ],
     bulletGroups: [
       {
-        title: 'Компетенции',
+        title: 'Core capabilities',
         items: [
-          'Security Operations Center 24/7 и реагирование на инциденты.',
-          'Сертифицированные методики аудита и тестирования на проникновение.',
-          'Системы шифрования, электронного документооборота и управления ключами.',
+          '24/7 Security Operations Center and incident response.',
+          'Certified audit methodologies and penetration testing.',
+          'Encryption, secure document flow, and key management systems.',
         ],
       },
       {
-        title: 'Национальные проекты',
+        title: 'National programs',
         items: [
-          'Создание отраслевых центров кибербезопасности.',
-          'Поддержка госпрограмм по цифровому суверенитету.',
-          'Совместные учения и тренажёры для силовых структур.',
+          'Building sectoral cybersecurity centers.',
+          'Supporting government initiatives for digital sovereignty.',
+          'Joint exercises and simulators for defense agencies.',
         ],
       },
     ],
-    footnote: 'Точка роста: единая система защиты данных и инфраструктуры.',
+    footnote: 'Growth focus: integrated shield for data and infrastructure.',
   },
   {
     name: 'Education & Research',
-    lead: 'Научно-образовательный контур, который готовит инженеров и управленцев для цифрового будущего.',
+    lead: 'An education and research circuit that prepares engineers and leaders for the digital future.',
     story: [
-      'Мы объединяем университеты, акселераторы и отраслевые центры для запуска программ по ИИ, DevOps, кибербезопасности и блокчейну.',
-      'Образовательные треки строятся на основе реальных задач экосистемы: студенты погружаются в проекты групп и запускают собственные инициативы.',
+      'We unite universities, accelerators, and industry centers to launch programs in AI, DevOps, cybersecurity, and blockchain.',
+      'Learning paths are built on real ecosystem challenges: students join group projects and launch their own initiatives.',
     ],
     bulletGroups: [
       {
-        title: 'Форматы обучения',
+        title: 'Learning formats',
         items: [
-          'Университетские кафедры и магистерские программы.',
-          'Корпоративные акселераторы и индустриальные стажировки.',
-          'Лаборатории с доступом к инфраструктуре Obsidian.',
+          'University departments and graduate programs.',
+          'Corporate accelerators and industry residencies.',
+          'Laboratories with access to Obsidian infrastructure.',
         ],
       },
       {
-        title: 'Результаты',
+        title: 'Outcomes',
         items: [
-          'Подготовка специалистов для государственных цифровых проектов.',
-          'Исследования по устойчивости и безопасности цифровых платформ.',
-          'Поддержка стартапов и научных консорциумов.',
+          'Talent pipeline for public digital initiatives.',
+          'Research on resilience and security of digital platforms.',
+          'Support for startups and scientific consortiums.',
         ],
       },
     ],
-    footnote: 'Точка роста: кадровый лифт и научная база для всей экосистемы.',
+    footnote: 'Growth focus: talent engine and research base for the ecosystem.',
   },
 ]
 
@@ -194,11 +194,11 @@ const ProductsPage = () => {
   return (
     <div className="page products-newspaper">
       <header className="page-header newspaper-header">
-        <span className="page-subheading">Экосистема</span>
-        <h1>Наши продукты и направления</h1>
+        <span className="page-subheading">Ecosystem</span>
+        <h1>Our products and verticals</h1>
         <p className="page-lede">
-          Перед вами выпуск Obsidian Times: обзор ключевых направлений группы, их задач и программ развития. Каждое
-          направление дополняет другое, формируя целостную цифровую экономику.
+          Welcome to the Obsidian Times — a concise overview of our core directions, their missions, and development
+          programs. Each vertical strengthens the others, forming a cohesive digital economy.
         </p>
       </header>
 
@@ -207,7 +207,7 @@ const ProductsPage = () => {
           {productSections.map((section) => (
             <article key={section.name} className="newspaper-article">
               <header className="article-header">
-                <span className="article-section">Направление</span>
+                <span className="article-section">Vertical</span>
                 <h2>{section.name}</h2>
                 <p className="article-lead">{section.lead}</p>
               </header>

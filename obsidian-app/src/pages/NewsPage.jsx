@@ -1,33 +1,33 @@
 const principles = [
   {
     title: 'Digital Sovereignty',
-    date: 'Принцип',
+    date: 'Principle',
     summary:
-      'Мы строим решения, не зависящие от внешних игроков. Данные, безопасность и финансы остаются под национальным контролем.',
+      'We build solutions independent from foreign influence. Data, security, and finance remain under national control.',
   },
   {
     title: 'AI-First',
-    date: 'Подход',
+    date: 'Approach',
     summary:
-      'Искусственный интеллект — ядро каждого продукта. Мы автоматизируем процессы, повышаем эффективность и усиливаем аналитику.',
+      'Artificial intelligence is the heart of every product. We automate processes, elevate efficiency, and enrich analytics.',
   },
   {
     title: 'Zero-Trust',
-    date: 'Стандарт',
+    date: 'Standard',
     summary:
-      'Безусловное доверие исключено. Системы строятся на постоянной верификации и строгой политике доступа.',
+      'Implicit trust is eliminated. Systems are built on continuous verification and rigorous access policies.',
   },
   {
     title: 'Integration of Capital and Engineering',
-    date: 'Метод',
+    date: 'Method',
     summary:
-      'Инвестиции и инжиниринг развиваются синхронно. Мы финансируем проекты, которые усиливают технологическое ядро страны.',
+      'Investment and engineering advance together. We fund initiatives that fortify the nation’s technological core.',
   },
   {
     title: 'Long-Term Vision',
-    date: 'Стратегия',
+    date: 'Strategy',
     summary:
-      'Фокус на устойчивом развитии. Мы проектируем экосистему на десятилетия вперёд, а не ради краткосрочного результата.',
+      'We focus on sustainable progress. The ecosystem is engineered for decades, not for short-term wins.',
   },
 ]
 
@@ -35,11 +35,11 @@ const NewsPage = () => {
   return (
     <div className="page">
       <header className="page-header">
-        <span className="page-subheading">Принципы</span>
-        <h1>Как мы строим экосистему</h1>
+        <span className="page-subheading">Principles</span>
+        <h1>How we build the ecosystem</h1>
         <p className="page-lede">
-          Наши решения объединяют архитектуру Zero Trust, интеллект, финансы и людей. Это основа цифрового щита и двигателя
-          технологической независимости страны.
+          Our solutions weave together Zero Trust architecture, intelligence, finance, and people — the foundation of the
+          digital shield and the driver of technological independence.
         </p>
       </header>
 
@@ -49,9 +49,6 @@ const NewsPage = () => {
             <span className="badge">{principle.date}</span>
             <h3>{principle.title}</h3>
             <p>{principle.summary}</p>
-            <a className="cta-button" href="#!" aria-label={`Узнать больше о принципе ${principle.title}`}>
-              Узнать больше
-            </a>
           </article>
         ))}
       </section>

@@ -1,52 +1,52 @@
 const pillars = [
   {
     title: 'Digital Sovereignty',
-    copy: 'Технологическая независимость от внешних платформ. Критические решения разворачиваются в суверенной инфраструктуре.',
+    copy: 'Technological independence from external platforms. Critical workloads run inside sovereign infrastructure.',
   },
   {
     title: 'AI-First',
-    copy: 'Каждый продукт основывается на искусственном интеллекте, автоматизации и данных в режиме реального времени.',
+    copy: 'Every product is rooted in artificial intelligence, automation, and real-time data flows.',
   },
   {
     title: 'Zero-Trust',
-    copy: 'Безопасность по умолчанию: постоянная проверка, контроль доступа и защита данных в любых сценариях.',
+    copy: 'Security by default: continuous verification, rigorous access control, and data protection in every scenario.',
   },
   {
     title: 'Long-Term Vision',
-    copy: 'Стратегическое мышление вместо краткосрочной выгоды. Мы проектируем экосистему, способную масштабироваться десятилетиями.',
+    copy: 'Strategic thinking over short-term gain. We design an ecosystem built to scale for decades.',
   },
 ]
 
 const positioning = [
   {
-    year: 'Инфраструктура',
+    year: 'Infrastructure',
     title: 'Host',
-    description: 'Обеспечивает вычислительную мощность и облачные контуры для всех направлений.',
+    description: 'Delivers compute power and sovereign cloud footprints for every vertical.',
   },
   {
-    year: 'Финансы',
+    year: 'Finance',
     title: 'Bank',
-    description: 'Формирует цифровую платёжную систему и корпоративные шлюзы для бизнеса и государства.',
+    description: 'Builds the digital payment spine and corporate gateways for business and government.',
   },
   {
-    year: 'Экономика',
+    year: 'Economy',
     title: 'Freelance',
-    description: 'Запускает внутренний рынок цифровых услуг и поддерживает экспорт экспертизы.',
+    description: 'Launches the domestic market for digital services and supports the export of expertise.',
   },
   {
-    year: 'Токеномика',
+    year: 'Tokenomics',
     title: 'Uzcoin',
-    description: 'Цифровое топливо экосистемы, связывающее сервисы через единый слой доверия.',
+    description: 'The ecosystem’s digital fuel, connecting services through a unified layer of trust.',
   },
   {
-    year: 'Интеллект',
+    year: 'Intelligence',
     title: 'AI & Defense',
-    description: 'Создаёт решения искусственного интеллекта и оборонные технологии для национальной безопасности.',
+    description: 'Creates artificial intelligence solutions and defense technology for national security.',
   },
   {
-    year: 'Безопасность',
+    year: 'Security',
     title: 'Cybersecurity',
-    description: 'Поддерживает непрерывный мониторинг и защиту критической инфраструктуры.',
+    description: 'Provides continuous monitoring and protection for critical infrastructure.',
   },
 ]
 
@@ -54,12 +54,12 @@ const AboutPage = () => {
   return (
     <div className="page">
       <header className="page-header">
-        <span className="page-subheading">О группе</span>
-        <h1>Единое технологическое ядро страны</h1>
+        <span className="page-subheading">About the group</span>
+        <h1>The nation’s unified technology core</h1>
         <p className="page-lede">
-          Обсидиан объединяет инжиниринг, капитал и стратегическое управление. Мы работаем с государственными структурами,
-          корпорациями и высокотехнологичными стартапами, создавая экосистему полного цикла — от ИИ и облаков до финтеха и
-          кибербезопасности.
+          Obsidian connects engineering, capital, and strategic governance. We collaborate with public agencies,
+          enterprises, and high-tech startups to build a full-cycle ecosystem — from AI and cloud to fintech and
+          cybersecurity.
         </p>
       </header>
 
@@ -75,11 +75,11 @@ const AboutPage = () => {
       <div className="section-divider" />
 
       <section className="page-header">
-        <span className="page-subheading">Позиционирование</span>
-        <h2>Каждый компонент — часть стратегии</h2>
+        <span className="page-subheading">Positioning</span>
+        <h2>Every component reinforces the strategy</h2>
         <p className="page-lede">
-          Это не отдельный продукт и не стартап. Это система взаимосвязанных слоёв, где инфраструктура, финансы, экономика
-          и безопасность усиливают друг друга.
+          This is not a single product or a startup. It is a system of interlinked layers where infrastructure, finance,
+          economy, and security amplify one another.
         </p>
       </section>
 

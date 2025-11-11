@@ -2,19 +2,19 @@ import logoMark from '../assets/obsidian-mark.svg'
 
 const features = [
   {
-    title: 'Цифровой суверенитет',
+    title: 'Digital Sovereignty',
     description:
-      'Независимая технологическая экосистема, где данные, инфраструктура и процессы контролируются внутри страны.',
+      'An independent technology ecosystem where data, infrastructure, and decision-making stay under national control.',
   },
   {
-    title: 'Zero Trust по умолчанию',
+    title: 'Zero Trust by Default',
     description:
-      'Безопасность, основанная на непрерывной верификации, шифровании и строгом контроле доступа на всех уровнях.',
+      'Security engineered on continuous verification, encryption, and precise access governance at every layer.',
   },
   {
-    title: 'Интеграция капитала и инжиниринга',
+    title: 'Capital + Engineering',
     description:
-      'Финансы, технологии и таланты объединены в единое стратегическое ядро для долгосрочного развития.',
+      'Finance, technology, and talent fused into a single strategic core that sustains long-term growth.',
   },
 ]
 
@@ -27,29 +27,29 @@ const HomePage = () => {
             <span className="badge">Zero Trust</span>
             <span className="badge">AI-First</span>
           </div>
-          <h1>Обсидиан</h1>
+          <h1>Obsidian</h1>
           <p>
-            Технологическая и инвестиционная группа полного цикла. Мы соединяем искусственный интеллект, облачную
-            инфраструктуру, финтех и цифровую безопасность, создавая экосистему, способную обеспечить технологическую
-            независимость и устойчивое развитие страны.
+            A full-cycle technology and investment group. We combine artificial intelligence, sovereign cloud
+            infrastructure, fintech, and cyber defense to build an ecosystem capable of securing technological
+            independence and resilient national growth.
           </p>
           <a className="cta-button" href="#products">
-            Основные направления
+            Explore key initiatives
           </a>
         </div>
         <div className="hero-visual">
           <div className="hero-orb">
-            <img src={logoMark} alt="Логотип Obsidian" />
+            <img src={logoMark} alt="Obsidian emblem" />
           </div>
         </div>
       </section>
 
       <section className="page-header" id="products">
-        <span className="page-subheading">Миссия</span>
-        <h2>Национальная экосистема цифровой независимости</h2>
+        <span className="page-subheading">Mission</span>
+        <h2>A national ecosystem of digital independence</h2>
         <p className="page-lede">
-          Мы создаём технологический щит страны: от оборонных ИИ-систем и суверенных облаков до блокчейн-уровня доверия и
-          финансовой инфраструктуры будущего.
+          We assemble the country’s technology shield: defense-grade AI systems, sovereign clouds, trusted blockchain
+          layers, and the financial rails of the future.
         </p>
       </section>
 
