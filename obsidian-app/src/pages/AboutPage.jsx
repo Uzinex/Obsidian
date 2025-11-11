@@ -1,33 +1,52 @@
-const milestones = [
+const pillars = [
   {
-    year: '2084',
-    title: 'The Foundry Ignites',
-    description: 'Volcanologists and quantum metallurgists unite beneath Icelandic calderas to synthesize the first Obsidian alloy.',
+    title: 'Digital Sovereignty',
+    copy: 'Технологическая независимость от внешних платформ. Критические решения разворачиваются в суверенной инфраструктуре.',
   },
   {
-    year: '2091',
-    title: 'Lagrange Expansion',
-    description: 'Our orbital laboratories activate at Lagrange Point L5, enabling zero-gravity tempering and lattice sculpting.',
+    title: 'AI-First',
+    copy: 'Каждый продукт основывается на искусственном интеллекте, автоматизации и данных в режиме реального времени.',
   },
   {
-    year: '2098',
-    title: 'TerraShield Accord',
-    description: 'World governments adopt Obsidian barrier systems to protect coastal megacities from superstorms.',
+    title: 'Zero-Trust',
+    copy: 'Безопасность по умолчанию: постоянная проверка, контроль доступа и защита данных в любых сценариях.',
+  },
+  {
+    title: 'Long-Term Vision',
+    copy: 'Стратегическое мышление вместо краткосрочной выгоды. Мы проектируем экосистему, способную масштабироваться десятилетиями.',
   },
 ]
 
-const pillars = [
+const positioning = [
   {
-    title: 'Transcendent Craft',
-    copy: 'Our artisans operate at the convergence of geology, photonics, and sonic engineering to mold matter with micron precision.',
+    year: 'Инфраструктура',
+    title: 'Host',
+    description: 'Обеспечивает вычислительную мощность и облачные контуры для всех направлений.',
   },
   {
-    title: 'Ethical Power',
-    copy: 'Closed-loop geothermal systems power every facility, ensuring our breakthroughs heal the planet that forged us.',
+    year: 'Финансы',
+    title: 'Bank',
+    description: 'Формирует цифровую платёжную систему и корпоративные шлюзы для бизнеса и государства.',
   },
   {
-    title: 'Exploratory Spirit',
-    copy: 'We design for tomorrow’s frontiers — from Europa’s ice oceans to fusion reactors at the edge of the sun.',
+    year: 'Экономика',
+    title: 'Freelance',
+    description: 'Запускает внутренний рынок цифровых услуг и поддерживает экспорт экспертизы.',
+  },
+  {
+    year: 'Токеномика',
+    title: 'Uzcoin',
+    description: 'Цифровое топливо экосистемы, связывающее сервисы через единый слой доверия.',
+  },
+  {
+    year: 'Интеллект',
+    title: 'AI & Defense',
+    description: 'Создаёт решения искусственного интеллекта и оборонные технологии для национальной безопасности.',
+  },
+  {
+    year: 'Безопасность',
+    title: 'Cybersecurity',
+    description: 'Поддерживает непрерывный мониторинг и защиту критической инфраструктуры.',
   },
 ]
 
@@ -35,12 +54,12 @@ const AboutPage = () => {
   return (
     <div className="page">
       <header className="page-header">
-        <span className="page-subheading">Who We Are</span>
-        <h1>Forgers of luminous futures</h1>
+        <span className="page-subheading">О группе</span>
+        <h1>Единое технологическое ядро страны</h1>
         <p className="page-lede">
-          Obsidian was born from lava tubes and relentless curiosity. Our team spans volcanologists, quantum coders,
-          architects, and storytellers united by the belief that resilience and beauty can coexist in the harshest
-          environments.
+          Обсидиан объединяет инжиниринг, капитал и стратегическое управление. Мы работаем с государственными структурами,
+          корпорациями и высокотехнологичными стартапами, создавая экосистему полного цикла — от ИИ и облаков до финтеха и
+          кибербезопасности.
         </p>
       </header>
 
@@ -56,16 +75,20 @@ const AboutPage = () => {
       <div className="section-divider" />
 
       <section className="page-header">
-        <span className="page-subheading">Milestones</span>
-        <h2>Moments that tempered our core</h2>
+        <span className="page-subheading">Позиционирование</span>
+        <h2>Каждый компонент — часть стратегии</h2>
+        <p className="page-lede">
+          Это не отдельный продукт и не стартап. Это система взаимосвязанных слоёв, где инфраструктура, финансы, экономика
+          и безопасность усиливают друг друга.
+        </p>
       </section>
 
       <div className="page-grid">
-        {milestones.map((milestone) => (
-          <article key={milestone.year} className="glass-card">
-            <h3>{milestone.year}</h3>
-            <h4>{milestone.title}</h4>
-            <p>{milestone.description}</p>
+        {positioning.map((item) => (
+          <article key={item.title} className="glass-card">
+            <h3>{item.year}</h3>
+            <h4>{item.title}</h4>
+            <p>{item.description}</p>
           </article>
         ))}
       </div>

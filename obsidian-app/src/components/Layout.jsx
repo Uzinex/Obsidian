@@ -4,11 +4,11 @@ import logoMark from '../assets/obsidian-mark.svg'
 import '../App.css'
 
 const links = [
-  { to: '/', label: 'Home' },
-  { to: '/about', label: 'About' },
-  { to: '/products', label: 'Products' },
-  { to: '/news', label: 'News' },
-  { to: '/contact', label: 'Contact' },
+  { to: '/', label: 'Главная' },
+  { to: '/about', label: 'О нас' },
+  { to: '/products', label: 'Направления' },
+  { to: '/news', label: 'Принципы' },
+  { to: '/contact', label: 'Контакты' },
 ]
 
 const Layout = () => {
@@ -22,8 +22,8 @@ const Layout = () => {
       <header className="site-header">
         <nav className="navbar">
           <NavLink to="/" className="brand" onClick={closeMenu}>
-            <img src={logoMark} alt="Obsidian logo" />
-            <span>Obsidian</span>
+            <img src={logoMark} alt="Логотип Obsidian" />
+            <span>Obsidian Group</span>
           </NavLink>
           <div className="nav-links">
             {links.map((link) => (
@@ -43,7 +43,7 @@ const Layout = () => {
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen((open) => !open)}
           >
-            Menu
+            Меню
           </button>
         </nav>
         {menuOpen && (
@@ -76,8 +76,8 @@ const Layout = () => {
               </NavLink>
             ))}
           </div>
-          <div className="footer-note">Forged from fire. Illuminating the future.</div>
-          <div className="footer-note">© {new Date().getFullYear()} Obsidian Industries. All rights reserved.</div>
+          <div className="footer-note">Цифровой щит и двигатель технологической независимости.</div>
+          <div className="footer-note">© {new Date().getFullYear()} Obsidian Group. Все права защищены.</div>
         </div>
       </footer>
     </div>

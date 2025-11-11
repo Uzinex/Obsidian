@@ -1,21 +1,33 @@
-const headlines = [
+const principles = [
   {
-    title: 'Obsidian unveils aurora-class habitats',
-    date: 'May 26, 2099',
+    title: 'Digital Sovereignty',
+    date: 'Принцип',
     summary:
-      'Modular habitats woven from Helios Lattice ignite above Reykjavik, forming the first self-illuminating city shield.',
+      'Мы строим решения, не зависящие от внешних игроков. Данные, безопасность и финансы остаются под национальным контролем.',
   },
   {
-    title: 'Partnership with Europa research fleets',
-    date: 'April 13, 2099',
+    title: 'AI-First',
+    date: 'Подход',
     summary:
-      'Our geothermal cores will power submersible fleets exploring Europa’s ice oceans, unlocking new data for terraforming.',
+      'Искусственный интеллект — ядро каждого продукта. Мы автоматизируем процессы, повышаем эффективность и усиливаем аналитику.',
   },
   {
-    title: 'TerraShield wins Global Resilience Award',
-    date: 'March 03, 2099',
+    title: 'Zero-Trust',
+    date: 'Стандарт',
     summary:
-      'International climate councils honor Obsidian for safeguarding 40 coastal megacities during the tri-storm season.',
+      'Безусловное доверие исключено. Системы строятся на постоянной верификации и строгой политике доступа.',
+  },
+  {
+    title: 'Integration of Capital and Engineering',
+    date: 'Метод',
+    summary:
+      'Инвестиции и инжиниринг развиваются синхронно. Мы финансируем проекты, которые усиливают технологическое ядро страны.',
+  },
+  {
+    title: 'Long-Term Vision',
+    date: 'Стратегия',
+    summary:
+      'Фокус на устойчивом развитии. Мы проектируем экосистему на десятилетия вперёд, а не ради краткосрочного результата.',
   },
 ]
 
@@ -23,21 +35,22 @@ const NewsPage = () => {
   return (
     <div className="page">
       <header className="page-header">
-        <span className="page-subheading">Newsroom</span>
-        <h1>Latest transmissions from the forge</h1>
+        <span className="page-subheading">Принципы</span>
+        <h1>Как мы строим экосистему</h1>
         <p className="page-lede">
-          Stories of resilience, luminous breakthroughs, and partnerships that push humanity beyond its perceived limits.
+          Наши решения объединяют архитектуру Zero Trust, интеллект, финансы и людей. Это основа цифрового щита и двигателя
+          технологической независимости страны.
         </p>
       </header>
 
       <section className="page-grid">
-        {headlines.map((headline) => (
-          <article key={headline.title} className="glass-card">
-            <span className="badge">{headline.date}</span>
-            <h3>{headline.title}</h3>
-            <p>{headline.summary}</p>
-            <a className="cta-button" href="#!" aria-label={`Read more about ${headline.title}`}>
-              Read Story
+        {principles.map((principle) => (
+          <article key={principle.title} className="glass-card">
+            <span className="badge">{principle.date}</span>
+            <h3>{principle.title}</h3>
+            <p>{principle.summary}</p>
+            <a className="cta-button" href="#!" aria-label={`Узнать больше о принципе ${principle.title}`}>
+              Узнать больше
             </a>
           </article>
         ))}
