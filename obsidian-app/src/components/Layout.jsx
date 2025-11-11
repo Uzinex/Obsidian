@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import logoMark from '../assets/obsidian-logo.svg'
 import '../App.css'
@@ -15,6 +15,20 @@ const Layout = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const closeMenu = () => setMenuOpen(false)
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 860) {
+        setMenuOpen(false)
+      }
+    }
+
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
 
   return (
     <div className="app-shell">
@@ -40,13 +54,14 @@ const Layout = () => {
             type="button"
             className="mobile-menu-button"
             aria-expanded={menuOpen}
+            aria-controls="primary-navigation"
             onClick={() => setMenuOpen((open) => !open)}
           >
             Menu
           </button>
         </nav>
         {menuOpen && (
-          <div className="nav-links mobile-nav">
+          <div id="primary-navigation" className="nav-links mobile-nav">
             {links.map((link) => (
               <NavLink
                 key={link.to}

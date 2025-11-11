@@ -211,12 +211,109 @@ button {
   color: var(--obsidian-gray-700);
 }
 
+@media (max-width: 900px) {
+  .page {
+    width: min(860px, 92vw);
+  }
+
+  .page-grid {
+    gap: 1.2rem;
+  }
+
+  .glass-card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .page {
+    width: min(680px, 92vw);
+    padding: 3rem 0 3.2rem;
+  }
+
+  .page-header {
+    gap: 0.65rem;
+  }
+
+  .page-lede {
+    font-size: 0.95rem;
+  }
+
+  .page-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .newspaper-sheet {
+    padding: clamp(1.6rem, 5vw, 2.2rem);
+  }
+
+  .newspaper-columns {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.4rem;
+  }
+
+  .newspaper-article {
+    padding: clamp(1.1rem, 4vw, 1.6rem);
+    gap: 1rem;
+  }
+
+  .article-header h2 {
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+  }
+
+  li {
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 600px) {
   .page {
+    width: min(520px, 92vw);
     padding: 2.5rem 0 3rem;
+  }
+
+  .page-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
   .newspaper-columns {
     grid-template-columns: 1fr;
+  }
+
+  .article-header h2 {
+    font-size: 1.15rem;
+  }
+
+  .article-footnote {
+    letter-spacing: 0.16em;
+  }
+}
+
+@media (max-width: 420px) {
+  .page {
+    width: 92vw;
+  }
+
+  .page-header {
+    margin-bottom: 2rem;
+  }
+
+  .page-subheading {
+    font-size: 0.8rem;
+    letter-spacing: 0.26em;
+  }
+
+  .glass-card {
+    padding: 1.25rem;
+  }
+
+  .newspaper-sheet {
+    padding: 1.2rem;
+  }
+
+  .newspaper-article {
+    padding: 1rem 1.1rem;
   }
 }
