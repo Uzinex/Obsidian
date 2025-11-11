@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
 import AboutPage from './pages/AboutPage'
 import HomePage from './pages/HomePage'
-import NewsPage from './pages/NewsPage'
+import PrinciplesPage from './pages/PrinciplesPage'
 import ProductsPage from './pages/ProductsPage'
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
         <Route index element={<HomePage />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="products" element={<ProductsPage />} />
-        <Route path="news" element={<NewsPage />} />
+        <Route path="principles" element={<PrinciplesPage />} />
       </Route>
     </Routes>
   )
