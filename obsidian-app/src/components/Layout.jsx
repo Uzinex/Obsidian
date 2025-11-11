@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
-import logoMark from '../assets/obsidian-mark.svg'
+import logoMark from '../assets/obsidian-logo.svg'
 import '../App.css'
 
 const links = [
@@ -21,8 +21,8 @@ const Layout = () => {
       <header className="site-header">
         <nav className="navbar">
           <NavLink to="/" className="brand" onClick={closeMenu}>
-            <img src={logoMark} alt="Obsidian logo" />
-            <span>Obsidian</span>
+            <img src={logoMark} alt="Obsidian logo" className="brand-mark" />
+            <span className="brand-name">Obsidian</span>
           </NavLink>
           <div className="nav-links">
             {links.map((link) => (
@@ -75,7 +75,7 @@ const Layout = () => {
               </NavLink>
             ))}
           </div>
-          <div className="footer-note">Digital shield and engine of technological independence.</div>
+          <div className="footer-note">Forged from fire.</div>
           <div className="footer-note">© {new Date().getFullYear()} Obsidian. All rights reserved.</div>
         </div>
       </footer>
