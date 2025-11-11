@@ -6,9 +6,8 @@ import '../App.css'
 const links = [
   { to: '/', label: 'Главная' },
   { to: '/about', label: 'О нас' },
-  { to: '/products', label: 'Направления' },
+  { to: '/products', label: 'Наши продукты' },
   { to: '/news', label: 'Принципы' },
-  { to: '/contact', label: 'Контакты' },
 ]
 
 const Layout = () => {
