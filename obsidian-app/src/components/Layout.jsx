@@ -7,7 +7,7 @@ const links = [
   { to: '/', label: 'Home' },
   { to: '/about', label: 'About' },
   { to: '/products', label: 'Products' },
-  { to: '/news', label: 'Principles' },
+  { to: '/principles', label: 'Principles' },
 ]
 
 const Layout = () => {

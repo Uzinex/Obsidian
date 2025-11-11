@@ -31,7 +31,7 @@ const principles = [
   },
 ]
 
-const NewsPage = () => {
+const PrinciplesPage = () => {
   return (
     <div className="page">
       <header className="page-header">
@@ -56,4 +56,4 @@ const NewsPage = () => {
   )
 }
 
-export default NewsPage
+export default PrinciplesPage
