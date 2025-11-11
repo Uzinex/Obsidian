@@ -10,6 +10,22 @@ ensure_npm() {
     return
   fi
 
+  # Attempt to install Node.js through an available system package manager first.
+  if command -v apt-get >/dev/null 2>&1; then
+    if ! dpkg -s nodejs >/dev/null 2>&1 || ! command -v node >/dev/null 2>&1; then
+      apt-get update -y >/dev/null 2>&1 || true
+      apt-get install -y nodejs npm >/dev/null 2>&1 || true
+    fi
+  elif command -v apk >/dev/null 2>&1; then
+    apk add --no-cache nodejs npm >/dev/null 2>&1 || true
+  elif command -v yum >/dev/null 2>&1; then
+    yum install -y nodejs npm >/dev/null 2>&1 || true
+  fi
+
+  if command -v npm >/dev/null 2>&1; then
+    return
+  fi
+
   export NVM_DIR="${NVM_DIR:-$HOME/.nvm}"
 
   # Install nvm on-the-fly if it has not been installed yet. Some
