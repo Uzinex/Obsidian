@@ -4,10 +4,10 @@ import logoMark from '../assets/obsidian-mark.svg'
 import '../App.css'
 
 const links = [
-  { to: '/', label: 'Главная' },
-  { to: '/about', label: 'О нас' },
-  { to: '/products', label: 'Наши продукты' },
-  { to: '/news', label: 'Принципы' },
+  { to: '/', label: 'Home' },
+  { to: '/about', label: 'About' },
+  { to: '/products', label: 'Products' },
+  { to: '/news', label: 'Principles' },
 ]
 
 const Layout = () => {
@@ -21,8 +21,8 @@ const Layout = () => {
       <header className="site-header">
         <nav className="navbar">
           <NavLink to="/" className="brand" onClick={closeMenu}>
-            <img src={logoMark} alt="Логотип Obsidian" />
-            <span>Obsidian Group</span>
+            <img src={logoMark} alt="Obsidian logo" />
+            <span>Obsidian</span>
           </NavLink>
           <div className="nav-links">
             {links.map((link) => (
@@ -42,7 +42,7 @@ const Layout = () => {
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen((open) => !open)}
           >
-            Меню
+            Menu
           </button>
         </nav>
         {menuOpen && (
@@ -75,8 +75,8 @@ const Layout = () => {
               </NavLink>
             ))}
           </div>
-          <div className="footer-note">Цифровой щит и двигатель технологической независимости.</div>
-          <div className="footer-note">© {new Date().getFullYear()} Obsidian Group. Все права защищены.</div>
+          <div className="footer-note">Digital shield and engine of technological independence.</div>
+          <div className="footer-note">© {new Date().getFullYear()} Obsidian. All rights reserved.</div>
         </div>
       </footer>
     </div>
