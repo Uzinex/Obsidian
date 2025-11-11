@@ -1,62 +1,53 @@
-import logoMark from '../assets/obsidian-mark.svg'
+import logoMark from '../assets/obsidian-logo.svg'
 
-const features = [
+const focusAreas = [
   {
-    title: 'Digital Sovereignty',
-    description:
-      'An independent technology ecosystem where data, infrastructure, and decision-making stay under national control.',
+    title: 'Forged strategy',
+    description: 'Every initiative is shaped with intent — simple structures, resilient execution, and measurable outcomes.',
   },
   {
-    title: 'Zero Trust by Default',
-    description:
-      'Security engineered on continuous verification, encryption, and precise access governance at every layer.',
+    title: 'Sovereign build',
+    description: 'Infrastructure, software, and intelligence designed to stay under national control.',
   },
   {
-    title: 'Capital + Engineering',
-    description:
-      'Finance, technology, and talent fused into a single strategic core that sustains long-term growth.',
+    title: 'Enduring craft',
+    description: 'We invest for decades. Precision, clarity, and reliability define the products we deliver.',
   },
 ]
 
 const HomePage = () => {
   return (
-    <div className="page">
+    <div className="page home-page">
       <section className="hero">
         <div className="hero-copy">
-          <div className="hero-badges">
-            <span className="badge">Zero Trust</span>
-            <span className="badge">AI-First</span>
-          </div>
+          <p className="hero-kicker">Forged from fire</p>
           <h1>Obsidian</h1>
           <p>
-            A full-cycle technology and investment group. We combine artificial intelligence, sovereign cloud
-            infrastructure, fintech, and cyber defense to build an ecosystem capable of securing technological
-            independence and resilient national growth.
+            A technology group built on discipline and clarity. Obsidian delivers infrastructure, software, and
+            intelligence with a single focus — create a sovereign digital core that stands on its own.
           </p>
-          <a className="cta-button" href="#products">
-            Explore key initiatives
+          <a className="cta-button" href="#focus">
+            Explore our focus
           </a>
         </div>
         <div className="hero-visual">
-          <div className="hero-orb">
-            <img src={logoMark} alt="Obsidian emblem" />
-          </div>
+          <img src={logoMark} alt="Obsidian symbol" className="hero-logo" />
+          <span className="hero-caption">FORGED FROM FIRE</span>
         </div>
       </section>
 
-      <section className="page-header" id="products">
-        <span className="page-subheading">Mission</span>
-        <h2>A national ecosystem of digital independence</h2>
+      <section className="page-header" id="focus">
+        <span className="page-subheading">Focus</span>
+        <h2>Black lines on a white canvas</h2>
         <p className="page-lede">
-          We assemble the country’s technology shield: defense-grade AI systems, sovereign clouds, trusted blockchain
-          layers, and the financial rails of the future.
+          The identity is absolute — monochrome, deliberate, and free from noise. We keep the same discipline in the way we
+          operate and build products.
         </p>
       </section>
 
       <div className="feature-grid">
-        {features.map((feature, index) => (
+        {focusAreas.map((feature) => (
           <article key={feature.title} className="feature-card">
-            <span className="feature-index">0{index + 1}</span>
             <h3>{feature.title}</h3>
             <p>{feature.description}</p>
           </article>
